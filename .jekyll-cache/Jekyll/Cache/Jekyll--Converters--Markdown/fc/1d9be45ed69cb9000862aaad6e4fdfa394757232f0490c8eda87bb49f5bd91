@@ -1,0 +1,50 @@
+I"]<h1 class="no_toc mb-2" id="quality">Quality</h1>
+
+<p class="fs-6 fw-300">Use the search bar to discover guidelines and examples.</p>
+
+<blockquote>
+  <p>A computer language is not just a way of getting a computer to perform operations but rather […] a novel formal medium for expressing ideas about methodology. Thus, programs must be written for people to read, and only incidentally for machines to execute.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
+</blockquote>
+
+<p>In this course, we will primarily study two measures of correctness as it relates to code quality.</p>
+
+<dl>
+  <dt>External correctness</dt>
+  <dd>A program where the desired outcome is correctly produced by a computer.</dd>
+</dl>
+
+<p>However, external correctness is not the only criteria for determining the quality of a program.</p>
+
+<blockquote>
+  <p>There are numerous ways a software project can fail: projects can be over budget, they can ship late, they can fail to be useful, or they can simply not be useful enough. Evidence clearly shows that success is highly contextual and stakeholder-dependent: success might be financial, social, physical and even emotional, suggesting that software engineering success is a multifaceted variable that cannot explained simply by user satisfaction, profitability or meeting requirements, budgets and schedules.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup></p>
+</blockquote>
+
+<blockquote>
+  <p>Whereas [external correctness criteria] are concerned with how software behaves technically according to specifications, some qualities concern properties of how developers interact with code:<sup id="fnref:2:1" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+  <ul>
+    <li><strong>Verifiability</strong> is the effort required to verify that software does what it is intended to do. For example, it is hard to verify a safety critical system without either proving it correct or testing it in a safety-critical context (which isn’t safe). Take driverless cars, for example: for Google to test their software, they’ve had to set up thousands of paid drivers to monitor and report problems on the road. In contrast, verifying that a simple static HTML web page works correctly is as simple as opening it in a browser.</li>
+    <li><strong>Maintainability</strong> is the effort required to correct, adapt, or perfect software. This depends mostly on how comprehensible and modular an implementation is.</li>
+    <li><strong>Reusability</strong> is the effort required to use a program’s components for purposes other than those for which it was originally designed. APIs are reusable by definition, whereas black box embedded software (like the software built into a car’s traction systems) is not.</li>
+  </ul>
+</blockquote>
+
+<p>Together, we call these criteria for how developers interact with code, “internal correctness.”</p>
+
+<dl>
+  <dt>Internal correctness</dt>
+  <dd>A program where the desired outcome is easily understood by other human programmers.</dd>
+</dl>
+
+<p>Writing high-quality programs takes deliberate practice, so these guidelines are not meant to be memorized at first. Instead, we’ll learn how to write high-quality programs through a process called <strong>code review</strong>, the practice of reviewing code with an eye towards code quality.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Harold Abelson, Gerald Jay Sussman, Julie Sussman. 1984. “Preface to the First Edition.” <em>Structure and Interpretation of Computer Programs.</em> <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html#%_chap_Temp_4">https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html#%_chap_Temp_4</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Amy J. Ko. 2020. “Quality.” <em>Cooperative Software Development.</em> <a href="https://faculty.washington.edu/ajko/books/cooperative-software-development/#/quality">https://faculty.washington.edu/ajko/books/cooperative-software-development/#/quality</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:2:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>
+:ET

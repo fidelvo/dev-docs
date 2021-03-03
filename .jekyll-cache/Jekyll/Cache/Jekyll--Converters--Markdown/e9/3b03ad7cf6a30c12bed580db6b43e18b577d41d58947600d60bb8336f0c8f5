@@ -1,0 +1,141 @@
+I"T/<h1 class="no_toc mb-2" id="final-project">Final Project</h1>
+
+<p class="fs-6 fw-300">Create something you want to share.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#ideation" id="markdown-toc-ideation">Ideation</a></li>
+  <li><a href="#proposal" id="markdown-toc-proposal">Proposal</a></li>
+  <li><a href="#status-report" id="markdown-toc-status-report">Status report</a></li>
+  <li><a href="#implementation" id="markdown-toc-implementation">Implementation</a>    <ol>
+      <li><a href="#user-guide" id="markdown-toc-user-guide">User guide</a></li>
+      <li><a href="#design-document" id="markdown-toc-design-document">Design document</a></li>
+      <li><a href="#reflection" id="markdown-toc-reflection">Reflection</a></li>
+    </ol>
+  </li>
+</ol>
+
+<hr />
+
+<p>The final project is your opportunity to create something new that you want to share with the rest of the world. The nature of your project is entirely up to you so long as it is sufficiently complex. All that we ask is that you build something of interest to you, that you solve an actual problem, that you impact campus, or that you change the world. Strive to create something that outlives this course.</p>
+
+<p><strong>The final project must involve developing an algorithm that either responds to user input or answers a question given a dataset. The problem should be at least as complex as the individual take-home assessments.</strong> The project should be primarily implemented in Java (recommended), <a href="https://dart.dev/">Dart</a>, <a href="https://www.python.org/">Python</a>, <a href="https://golang.org/">Go</a>, or any flavor of <a href="https://www.javascript.com/">JavaScript</a>. (Other languages are possible with additional approval.) You are welcome to utilize any infrastructure provided the staff can access any required software and hardware. That said, the staff is best able to support projects that run in an Ed Workspace and use the class’s standard web app framework.</p>
+
+<p>The final project is a collaborative activity: everyone is required to work in groups of either 2 or 3 students. You may not work alone. It is expected that every student contributes equally to the design and implementation of that group’s project. We expect each student to contribute about 18–24 hours of total labor towards the project since it represents 3 weeks of work in the course and replaces several class sessions. Although no more than three students may design and implement a given project, you are welcome to solicit advice from others so long as the final implementation represents your group’s own original work.</p>
+
+<h2 id="ideation">Ideation</h2>
+
+<p>The ideation phase is your opportunity to bounce one or more ideas off of the staff and identify collaborators. There’s no formal submission required during ideation.</p>
+
+<ul>
+  <li>What idea(s) do you have for your project?</li>
+  <li>If you plan to collaborate with one or two other students, what are their names?</li>
+  <li>When can all of the collaborators meet?</li>
+</ul>
+
+<p>You might have multiple ideas in mind. TAs and potential collaborators can help you choose between different options.</p>
+
+<blockquote>
+  <p>We want to build a <a href="https://en.wikipedia.org/wiki/ELIZA">pattern-matching chatbot</a> web app.</p>
+</blockquote>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>The proposal is your opportunity to receive feedback and approval from the staff before you proceed to design. The staff will either approve your proposal or require modifications on your part for subsequent approval. Your proposal, even if approved, is not binding; you may alter your plan at any point, provided you obtain the staff’s approval for any modifications.</p>
+
+<ul>
+  <li>What is the working title for your project?</li>
+  <li>Pitch your project in one or two sentences.</li>
+  <li>Describe your project in one or more paragraphs. What will your software do? What features will it have? How will it be executed?</li>
+</ul>
+
+<blockquote>
+  <p>FRANK: A frank chatbot. FRANK is a web app that accepts text input from the user, parses it to identify keywords and important phrases, and returns a coherent sentence that mentions the keywords and phrases in a natural way.</p>
+</blockquote>
+
+<p>In the world of software, most everything takes longer to implement than you expect. It’s not uncommon to accomplish less in a fixed amount of time than initially hoped.</p>
+
+<ul>
+  <li>Define a <strong>good</strong> outcome for your project. What functionality will you definitely accomplish?</li>
+  <li>Define a <strong>better</strong> outcome for your project. What do you think you can accomplish by the deadline?</li>
+  <li>Define a <strong>best</strong> outcome for your project. What do you hope to accomplish by the deadline?</li>
+</ul>
+
+<blockquote>
+  <p>A good outcome would be a chatbot that forms coherent sentences by mentioning keywords and important phrases from the input text. A better outcome would be a chatbot that also models conversation history, including an option to start a new conversation by clearing the history. A best outcome would be a chatbot that can learn from successful past conversations: the chatbot stores the conversation history of each user that had a positive experience so that future conversations with new users can draw on keywords and themes that were helpful to other users.</p>
+</blockquote>
+
+<p>Finally, outline your next steps in one or more paragraphs.</p>
+
+<ul>
+  <li>What new skills will you need to acquire?</li>
+  <li>What topics will you need to research?</li>
+  <li>If working with one or two other students, who will do what?</li>
+</ul>
+
+<blockquote>
+  <p>A pattern-matching chatbot will require more investigation into language modeling and syntax. There might be Java libraries on the internet that can tag parts of speech in a sentence to help the app identify keywords and important phrases. We can also draw inspiration from other programmers that have written about their experience creating chatbots.</p>
+</blockquote>
+
+<p>If you choose to do research, it’s important to consider how other programmers conceptualize the problem. In the chatbot example, our good outcome could be solved using string manipulations and dictionary lookups to identify parts of speech. If we model our project after examples that conceptualize the problem in a more complex way, it can be easy to get sidetracked and end up working on an approach that doesn’t address the original proposal!</p>
+
+<h2 id="status-report">Status report</h2>
+
+<p>The status report is your opportunity to keep yourself on track by meeting with a TA to discuss your project progress and adapt plans as necessary. The status report meeting will be most helpful if the project group has already made some progress into the project implementation.</p>
+
+<ul>
+  <li>What have you done for your project so far?</li>
+  <li>What have you not done for your project yet?</li>
+  <li>What problems, if any, have you encountered?</li>
+</ul>
+
+<h2 id="implementation">Implementation</h2>
+
+<p>Create an Ed workspace to collaborate during the implementation of your project. Include any and all files required to run your software. Keep in mind our code quality guidelines when implementing your project. Source code should meet our code quality guidelines so that other programmers can understand it. If you incorporate code found online, cite the source with inline comments. In your selection of code sources, <a href="https://apps.leg.wa.gov/WAC/default.aspx?cite=478-121-107">be reasonable</a>. This project should be primarily original work.</p>
+
+<dl>
+  <dt>Note</dt>
+  <dd>If your project is not compatible with Ed, you may submit a link to a public GitHub or GitLab repository.</dd>
+</dl>
+
+<p>To run Java code in a workspace, you will need to use the terminal. For example, if we had a <code class="language-plaintext highlighter-rouge">ChatBot</code> class that includes a <code class="language-plaintext highlighter-rouge">main</code> method, we could run the following terminal command. (The <code class="language-plaintext highlighter-rouge">rm</code> command at the end removes the <code class="language-plaintext highlighter-rouge">.class</code> files generated by Java after the program is done running.)</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javac ChatBot.java <span class="o">&amp;&amp;</span> java ChatBot<span class="p">;</span> <span class="nb">rm</span> <span class="k">*</span>.class
+</code></pre></div></div>
+
+<p>If the <code class="language-plaintext highlighter-rouge">ChatBot</code> requires other Java libraries (<code class="language-plaintext highlighter-rouge">jar</code> files), include the <code class="language-plaintext highlighter-rouge">-cp</code> flag to tell Java where to find <code class="language-plaintext highlighter-rouge">YOUR_JAR_FILES</code>.</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javac <span class="nt">-cp</span> <span class="s2">".:YOUR_JAR_FILES"</span> ChatBot.java <span class="o">&amp;&amp;</span> java <span class="nt">-cp</span> <span class="s2">".:YOUR_JAR_FILES"</span> ChatBot<span class="p">;</span> <span class="nb">rm</span> <span class="k">*</span>.class
+</code></pre></div></div>
+
+<p>In addition to the source code for running your project, include three additional text files.</p>
+
+<h3 id="user-guide">User guide</h3>
+
+<p>Write a user guide for your project in the form of a file called <code class="language-plaintext highlighter-rouge">README.txt</code> or <code class="language-plaintext highlighter-rouge">README.md</code> (if you prefer Markdown) at least several paragraphs in length. Though the structure of your user guide is entirely up to you, it should be clear to the staff how and where, if applicable, to compile, configure, and use your project. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation: be sure to answer in your documentation any questions that you think we might have while testing your work.</p>
+
+<p>The guide should also include a link to a <strong>short video</strong> (no more than 5 minutes long) that presents your project to the world with slides, screenshots, voiceover, and/or live action. Your video should somehow include your project title, your names, and any other details that you’d like to convey to viewers. We recommend recording a video through Zoom for ease of screensharing and so that all collaborators can present.</p>
+
+<h3 id="design-document">Design document</h3>
+
+<p>Include your project’s design document in the form of a file called <code class="language-plaintext highlighter-rouge">DESIGN.txt</code> or <code class="language-plaintext highlighter-rouge">DESIGN.md</code> at least several paragraphs in length. The design document discusses the project’s technical implementation details and reasoning behind design decisions.</p>
+
+<h3 id="reflection">Reflection</h3>
+
+<p>In a file named <code class="language-plaintext highlighter-rouge">reflection.txt</code>, write a reflection answering the following questions (along with anything else you find appropriate) at least one paragraph in length.</p>
+
+<ul>
+  <li>What did you learn during this project?</li>
+  <li>What did you enjoy during this project?</li>
+  <li>What did you find challenging or frustrating during this project?</li>
+  <li>What did you find particularly helpful for your learning during this project?</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>CS50. 2020. Final Project. In CS50 Spring 2020. <a href="https://cs50.harvard.edu/college/2020/spring/project/">https://cs50.harvard.edu/college/2020/spring/project/</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
