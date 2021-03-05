@@ -35,6 +35,10 @@ Agregar repositorio remoto en *GitLab / GitHub* mediante *HTTPS / SSH*
 git remote add origin https://gitlab.com/{{ page.usuario }}/{{ page.repositorio }}.git
 git remote add origin git@github.com:{{ page.usuario }}/{{ page.repositorio }}.git
 ```
+Verificar repositorio remoto
+```
+git remote -v
+```
 
 Actualizar cambios
 ```
