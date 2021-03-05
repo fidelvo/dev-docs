@@ -5,13 +5,13 @@ description: Documentación para desarrollo full-stack
 author: fidelvo
 
 # Acceso
-baseurl: "/dev-docs/_site" # the subpath of your site, e.g. /blog
+baseurl: "/dev-docs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]
 # logo: "/assets/img/logo.png"
 
 # Tema
-theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 search_enabled: true
 heading_anchors: true
